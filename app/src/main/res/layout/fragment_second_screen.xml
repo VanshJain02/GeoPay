@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView android:id="@+id/imagePaymentsolid"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_group"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/img_group"/>
+    <RelativeLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnpayallyourpa"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagePaymentsolid"
+        android:layout_marginBottom="@dimen/_37pxv"
+        android:layout_marginEnd="@dimen/_20pxh"
+        android:layout_marginStart="@dimen/_20pxh"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent" android:orientation="vertical">
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtPayallyourpa"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_26pxh"
+            android:layout_marginStart="@dimen/_26pxh"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_8pxh"
+            android:text="@string/msg_pay_all_your_pa"
+            style="@style/txtPoppinsbold24" tools:text="@string/msg_pay_all_your_pa"/>
+        <LinearLayout android:gravity="end"
+            android:id="@+id/linearRowellipseone"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/linearRowskip"
+            android:layout_marginEnd="@dimen/_176pxh"
+            android:layout_marginStart="@dimen/_176pxh"
+            android:layout_marginTop="@dimen/_121pxv"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <View
+                android:background="@drawable/rectangle_bg_gray_400_radius_4_565"
+                android:id="@+id/viewEllipseOne"
+                android:layout_height="@dimen/_9pxh" android:layout_width="@dimen/_9pxh"/>
+            <View
+                android:background="@drawable/rectangle_bg_indigo_a200_radius_4_565"
+                android:id="@+id/viewEllipseTwo"
+                android:layout_height="@dimen/_9pxh"
+                android:layout_marginStart="@dimen/_9pxh" android:layout_width="@dimen/_9pxh"/>
+            <View
+                android:background="@drawable/rectangle_bg_gray_400_radius_4_565"
+                android:id="@+id/viewEllipseThree"
+                android:layout_height="@dimen/_9pxh"
+                android:layout_marginStart="@dimen/_9pxh" android:layout_width="@dimen/_9pxh"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/linearRowskip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/_30pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txtSkip"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Skip"
+                android:layout_margin="10dp"
+                android:layout_alignParentLeft="true"
+                style="@style/txtPoppinsregular16"
+                tools:text="@string/lbl_skip"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtNext"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:lineSpacingExtra="@dimen/_8pxh"
+                android:singleLine="true"
+                android:text="Next"
+                style="@style/txtPoppinsbold16"
+                tools:text="@string/lbl_next"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

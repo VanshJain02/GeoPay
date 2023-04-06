@@ -1,0 +1,91 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
+    id 'kotlin-kapt'
+
+}
+
+android {
+    namespace 'com.example.geopay'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.geopay"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
+
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
+    implementation 'com.google.firebase:firebase-database-ktx:20.1.0'
+    implementation 'com.google.firebase:firebase-messaging-ktx:23.1.2'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation platform('com.google.firebase:firebase-bom:31.3.0')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-auth:16.0.3'
+    implementation 'com.google.firebase:firebase-database:20.0.4'
+    implementation 'com.google.firebase:firebase-storage:19.1.0'
+    implementation 'com.google.firebase:firebase-messaging'
+
+
+    implementation 'me.relex:circleindicator:2.1.6'
+
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+
+    implementation 'org.imaginativeworld.whynotimagecarousel:whynotimagecarousel:2.1.0'
+
+
+    //AWS
+
+    //
+
+    implementation("aws.sdk.kotlin:s3:0.18.0-beta")
+    implementation("aws.sdk.kotlin:dynamodb:0.18.0-beta")
+    implementation("aws.sdk.kotlin:iam:0.18.0-beta")
+    implementation("aws.sdk.kotlin:cloudwatch:0.18.0-beta")
+    implementation("aws.sdk.kotlin:cognitoidentityprovider:0.18.0-beta")
+    implementation("aws.sdk.kotlin:sns:0.18.0-beta")
+    implementation("aws.sdk.kotlin:pinpoint:0.18.0-beta")
+
+// single sign-on dependencies
+    implementation("aws.sdk.kotlin:sso:0.18.0-beta")
+    implementation("aws.sdk.kotlin:ssooidc:0.18.0-beta")
+
+    implementation "com.android.volley:volley:1.2.1"
+// test dependency
+}
+apply plugin: 'com.google.gms.google-services'

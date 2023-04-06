@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragmentScreen.SearchPage">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnmenu"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearRowlocation"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_15pxh"
+            android:layout_marginStart="@dimen/_15pxh"
+            android:layout_marginTop="@dimen/_14pxv"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <ImageButton
+                android:background="@drawable/rectangle_bg_red_400_radius_25"
+                android:id="@+id/btnLocation"
+                android:layout_height="@dimen/_50pxh"
+                android:layout_width="@dimen/_50pxh"
+                android:paddingHorizontal="@dimen/_15pxh"
+                android:paddingVertical="@dimen/_15pxv"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_location" tools:ignore="ContentDescription"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtTimeZone"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@string/msg_munshi_nagar_a"
+                    style="@style/txtMerriweatherSansromanlight13_1" tools:text="@string/msg_munshi_nagar_a"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/frameStacksearch"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_49pxv"
+            android:layout_marginEnd="@dimen/_14pxh"
+            android:layout_marginStart="@dimen/_14pxh"
+            android:layout_marginTop="@dimen/_20pxv" android:layout_width="@dimen/_393pxh">
+<!--            <LinearLayout android:id="@+id/linearRowsearch"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginEnd="@dimen/_9pxh"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:orientation="horizontal" style="@style/groupStylewhite_2">-->
+<!--                <ImageView android:id="@+id/imageSearch"-->
+<!--                    android:layout_height="@dimen/_20pxh"-->
+<!--                    android:layout_marginBottom="@dimen/_14pxv"-->
+<!--                    android:layout_marginStart="@dimen/_15pxh"-->
+<!--                    android:layout_marginTop="@dimen/_15pxv"-->
+<!--                    android:layout_width="@dimen/_20pxh"-->
+<!--                    android:scaleType="fitXY"-->
+<!--                    android:src="@drawable/img_search"-->
+<!--                    tools:ignore="ContentDescription" tools:src="@drawable/img_search"/>-->
+<!--                <TextView android:ellipsize="end"-->
+<!--                    android:id="@+id/txtSearchstores"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginBottom="@dimen/_12pxv"-->
+<!--                    android:layout_marginEnd="@dimen/_169pxh"-->
+<!--                    android:layout_marginStart="@dimen/_17pxh"-->
+<!--                    android:layout_marginTop="@dimen/_19pxv"-->
+<!--                    android:layout_weight="0.89"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:singleLine="true"-->
+<!--                    android:text="@string/msg_search_stores"-->
+<!--                    style="@style/txtMerriweatherSansitaliclight13" tools:text="@string/msg_search_stores"/>-->
+<!--            </LinearLayout>-->
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.SearchView
+                    android:layout_width="match_parent"
+                    android:clickable="true"
+                    android:id="@+id/search_page_searchbar"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.card.MaterialCardView>
+        </FrameLayout>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtRecentlysearch"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_21pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@string/msg_recently_search"
+            style="@style/txtMerriweatherSansromanbold19"
+            tools:text="@string/msg_recently_search"/>
+        <LinearLayout
+            android:id="@+id/linearRowinfinitiMall"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            >
+            <androidx.appcompat.widget.AppCompatButton
+                android:gravity="center"
+                android:id="@+id/btnInfinitiMall"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/lbl_infiniti_mall"
+                android:textAllCaps="false"
+                tools:text="@string/lbl_infiniti_mall"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnSofitelHotel"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+
+                android:text="@string/lbl_sofitel_hotel"
+                android:textAllCaps="false"
+
+                tools:text="@string/lbl_sofitel_hotel"/>
+        </LinearLayout>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtBigSaverOffer"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_15pxh"
+            android:layout_marginStart="@dimen/_15pxh"
+            android:layout_marginTop="@dimen/_19pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@string/msg_big_saver_offer"
+            style="@style/txtMerriweatherSansromanbold19"
+            tools:text="@string/msg_big_saver_offer"/>
+        <HorizontalScrollView android:fillViewport="true"
+            android:gravity="center_horizontal"
+            android:id="@+id/horizontalScrollHorizontalscrollrectanglefifteen"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5pxh"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_width="match_parent" android:scrollbars="none">
+            <LinearLayout
+                android:id="@+id/linearRowrectanglefifteen"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" android:orientation="horizontal">
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearColumnrectanglefifteen"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_19pxv"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageRectangleFifteen"
+                        android:layout_width="180dp"
+                        android:layout_height="@dimen/_140pxh"
+                        android:gravity="start"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_rectangle15"
+                        tools:ignore="ContentDescription"
+                        tools:src="@drawable/img_rectangle15" />
+
+                    <TextView android:id="@+id/txtOffer"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_39pxh"
+                        android:layout_marginStart="@dimen/_40pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_width="wrap_content"
+                        android:text="@string/msg_ipad_air_45_of"
+                        style="@style/txtMerriweatherSansromanregular16" tools:text="@string/msg_ipad_air_45_of"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linearColumnrectangleseventeen"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_19pxv"
+                    android:layout_marginStart="@dimen/_16pxh"
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView android:gravity="start"
+                        android:id="@+id/imageRectangleSixteen"
+                        android:layout_height="@dimen/_140pxh"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_width="160dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_rectangle16"
+                        tools:ignore="ContentDescription"
+                        tools:src="@drawable/img_rectangle16"/>
+                    <TextView android:gravity="end"
+                        android:id="@+id/txtOfferOne"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_9pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_width="match_parent"
+                        android:text="@string/msg_samsung_tab_s7"
+                        style="@style/txtMerriweatherSansromanregular16" tools:text="@string/msg_samsung_tab_s7"/>
+                </LinearLayout>
+                <LinearLayout
+                android:id="@+id/linearColumnrectanglesixteen"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" android:layout_marginStart="@dimen/_16pxh"
+                    android:layout_marginBottom="19dp"
+                android:orientation="vertical">
+                <ImageView android:id="@+id/imageRectangleSeventeen"
+                    android:layout_height="@dimen/_140pxh"
+                    android:layout_width="160dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_rectangle17"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_rectangle17"/>
+
+                    <TextView android:gravity="end"
+                        android:id="@+id/txtOfferthree"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:text="@string/msg_xiaomi_mi_pad_5"
+                        style="@style/txtMerriweatherSansromanregular16"
+                        tools:text="@string/msg_xiaomi_mi_pad_5"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <FrameLayout android:gravity="start"
+            android:id="@+id/framePromos"
+            android:layout_height="@dimen/_195pxv"
+            android:layout_marginTop="@dimen/_23pxv" android:layout_width="match_parent">
+
+            <ImageView
+                android:id="@+id/imageRectangleNine"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_195pxh"
+                android:layout_gravity="start"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_rectangle9"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/img_rectangle9" />
+
+            <ImageView android:id="@+id/imageContrast"
+                android:layout_gravity="bottom|end"
+                android:layout_height="@dimen/_9pxh"
+                android:layout_marginBottom="@dimen/_17pxv"
+                android:layout_marginEnd="@dimen/_13pxh"
+                android:layout_marginStart="@dimen/_13pxh"
+                android:layout_marginTop="@dimen/_17pxv"
+                android:layout_width="@dimen/_31pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_contrast"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/img_contrast"/>
+        </FrameLayout>
+        <ImageView android:gravity="start"
+            android:id="@+id/imageRectangleFiftyFive"
+            android:layout_height="@dimen/_89pxv"
+            android:layout_marginTop="@dimen/_11pxv"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription"
+            android:src="@drawable/img_rectangle55"
+            tools:src="@drawable/img_rectangle55"/>
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

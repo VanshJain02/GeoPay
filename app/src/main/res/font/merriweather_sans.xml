@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font app:font="@font/merriweathersansromanregular" app:fontWeight="400"/>
+    <font app:font="@font/merriweathersansromanbold" app:fontWeight="700"/>
+    <font app:font="@font/merriweathersansromanlight" app:fontWeight="300"/>
+    <font app:font="@font/merriweathersansitaliclight" app:fontWeight="300"/>
+</font-family>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "291275898006",
+    "firebase_url": "https://geopay-627c0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "geopay-627c0",
+    "storage_bucket": "geopay-627c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291275898006:android:1506592f117582ac8556b7",
+        "android_client_info": {
+          "package_name": "com.example.geopay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291275898006-ojjq4qcu4afrd75r3t4lsagm6b16hc66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6BZ2YBvKIK0sG0mF_9DRmqeIFEbSJmc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291275898006-ojjq4qcu4afrd75r3t4lsagm6b16hc66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

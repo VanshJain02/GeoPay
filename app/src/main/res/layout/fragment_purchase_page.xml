@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentScreen.PurchasePage">
+
+    <LinearLayout android:gravity="end"
+            android:id="@+id/linearColumntransactions"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <FrameLayout android:gravity="start"
+                android:id="@+id/frameStackgroupseventeen"
+                android:layout_height="@dimen/_42pxv" android:layout_width="match_parent">
+                <FrameLayout android:id="@+id/frameStackoffers"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_42pxv" android:layout_width="match_parent">
+                    <LinearLayout
+                        android:id="@+id/linearColumnoffers"
+                        android:layout_gravity="start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_width="wrap_content" android:orientation="vertical">
+                        <TextView android:ellipsize="end"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/txtOffers"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_7pxh"
+                            android:layout_marginStart="@dimen/_6pxh"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:text="@string/lbl_offers"
+                            style="@style/txtMerriweatherSansromanlight20" tools:text="@string/lbl_offers"/>
+                        <View android:background="@color/red_400"
+                            android:id="@+id/lineRectangleSixtyEight"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_4pxv"
+                            android:layout_marginTop="@dimen/_12pxv" android:layout_width="@dimen/_73pxh"/>
+                    </LinearLayout>
+                    <View android:background="@color/gray_200"
+                        android:id="@+id/lineRectangleThirtyTwo"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="@dimen/_4pxv"
+                        android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_428pxh"/>
+                </FrameLayout>
+                <View android:id="@+id/viewGroupSeventeen"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="@dimen/_4pxv"
+                    android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_428pxh"/>
+            </FrameLayout>
+            <LinearLayout android:gravity="end"
+                android:id="@+id/linearStoreList"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_16pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtAVAILEDOFFERS"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_8pxv"
+                    android:layout_marginTop="@dimen/_7pxv"
+                    android:layout_weight="0.43"
+                    android:layout_width="0dp"
+                    android:singleLine="true"
+                    android:text="@string/lbl_availed_offers"
+                    style="@style/txtMerriweatherSansromanregular20" tools:text="@string/lbl_availed_offers"/>
+                <ImageButton
+                    android:background="@drawable/rectangle_bg_teal_300_radius_21"
+                    android:id="@+id/btnMaskgroup"
+                    android:layout_height="@dimen/_42pxh"
+                    android:layout_marginStart="@dimen/_31pxh"
+                    android:layout_width="@dimen/_42pxh"
+                    android:paddingHorizontal="@dimen/_5pxh"
+                    android:paddingVertical="@dimen/_5pxv"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_maskgroup" tools:ignore="ContentDescription"/>
+                <ImageButton
+                    android:background="@drawable/rectangle_bg_deep_orange_300_radius_21"
+                    android:id="@+id/btnMaskgroupOne"
+                    android:layout_height="@dimen/_42pxh"
+                    android:layout_marginStart="@dimen/_4pxh"
+                    android:layout_width="@dimen/_42pxh"
+                    android:paddingHorizontal="@dimen/_4pxh"
+                    android:paddingVertical="@dimen/_4pxv"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_maskgroup_42x42" tools:ignore="ContentDescription"/>
+                <ImageButton
+                    android:background="@drawable/rectangle_bg_light_green_600_radius_21"
+                    android:id="@+id/btnMaskgroupTwo"
+                    android:layout_height="@dimen/_42pxh"
+                    android:layout_marginStart="@dimen/_4pxh"
+                    android:layout_width="@dimen/_42pxh"
+                    android:paddingHorizontal="@dimen/_8pxh"
+                    android:paddingVertical="@dimen/_8pxv"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_maskgroup_1"
+                    tools:ignore="ContentDescription"/>
+                <FrameLayout
+                    android:id="@+id/frameStack1579259915v7ze"
+                    android:layout_height="@dimen/_42pxv"
+                    android:layout_marginStart="@dimen/_4pxh"
+                    android:layout_width="@dimen/_42pxh" style="@style/groupStyleindigo_900cornerRadius">
+                    <ImageView android:id="@+id/image1579259915V7ze"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_13pxh"
+                        android:layout_marginBottom="@dimen/_14pxv"
+                        android:layout_marginEnd="@dimen/_3pxh"
+                        android:layout_marginStart="@dimen/_3pxh"
+                        android:layout_marginTop="@dimen/_14pxv"
+                        android:layout_width="@dimen/_35pxh"
+                        android:scaleType="fitXY"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_1579259915v7ze"/>
+                </FrameLayout>
+                <ImageView android:id="@+id/imageImageFortyThree"
+                    android:layout_height="@dimen/_42pxh"
+                    android:layout_marginStart="@dimen/_4pxh"
+                    android:layout_width="@dimen/_42pxh"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription"
+                    android:src="@drawable/img_image43"
+                    tools:src="@drawable/img_image43"/>
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:gravity="center_horizontal"
+                android:id="@+id/payment_recycler"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_31pxv"
+                android:layout_width="match_parent"
+                android:nestedScrollingEnabled="false"
+                itemSpace="@{@dimen/_49pxh}"
+                tools:itemCount="3"
+                tools:listitem="@layout/row_order"/>
+        </LinearLayout>
+
+</FrameLayout>

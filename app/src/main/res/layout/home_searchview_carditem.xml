@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TextView android:ellipsize="end"
+            android:gravity="start"
+            android:id="@+id/alloffers_card_txtOffer"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_18pxh"
+            android:layout_marginStart="@dimen/_18pxh"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_6pxh"
+            android:singleLine="true"
+            android:text="@string/msg_15_off_on_purc"
+            style="@style/txtMerriweatherSansromanbold20"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end"
+                android:gravity="center"
+                android:id="@+id/alloffers_GetOffer"
+                android:layout_gravity="top|start"
+                android:layout_height="@dimen/_36pxv"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_22pxh"
+                android:layout_marginStart="@dimen/_22pxh"
+                android:layout_width="@dimen/_102pxh"
+                android:lineSpacingExtra="@dimen/_7pxh"
+                android:paddingBottom="@dimen/_8pxv"
+                android:paddingEnd="@dimen/_21pxh"
+                android:paddingStart="@dimen/_21pxh"
+                android:paddingTop="@dimen/_8pxv"
+                android:singleLine="true"
+                android:text="Get Offer"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded" />
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtTCAPPLIED"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2pxv"
+                android:layout_weight="0.92"
+                android:layout_width="0dp"
+                android:lineSpacingExtra="@dimen/_8pxh"
+                android:singleLine="true"
+                android:text="@string/lbl_t_c_applied"
+                style="@style/txtPoppinsregular15"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

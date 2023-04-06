@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:layout_marginBottom="10dp"
+    tools:context=".fragmentScreen.HomePage">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/linearColumnrectangle2007"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+            android:id="@+id/carousel"
+            android:layout_width="match_parent"
+            app:showNavigationButtons="false"
+            app:imageScaleType="fitCenter"
+            app:autoPlay="true"
+            app:autoPlayDelay="3000"
+            android:background="@drawable/layout_shape"
+            app:showCaption="false"
+            android:layout_height="160dp" />
+
+        <FrameLayout android:id="@+id/frameStacklineeight"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            style="@style/groupStylewhite_A700cornerRadius">
+            <RelativeLayout android:id="@+id/linearRowalloffers"
+                android:layout_gravity="bottom|end"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <Button android:ellipsize="end"
+                    android:id="@+id/btnAllOffers"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/layout_shape"
+                    android:singleLine="true"
+                    android:text="All offers"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="20dp"
+                    style="@style/txtMerriweatherSansromanregular20" tools:text="@string/lbl_all_offers"/>
+                <Button android:ellipsize="end"
+                    android:id="@+id/btnMyOffers"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/layout_shape"
+                    android:singleLine="true"
+                    android:layout_marginRight="30dp"
+                    android:textSize="18dp"
+                    android:text="Near Me"
+                    style="@style/txtMerriweatherSansromanregular20"
+                    tools:text="Near Me"/>
+            </RelativeLayout>
+        </FrameLayout>
+        <View android:background="@color/gray_400"
+            android:id="@+id/lineLineOne"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_12pxv" android:layout_width="@dimen/_379pxh"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:id="@+id/homefrag_bottom_frame"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

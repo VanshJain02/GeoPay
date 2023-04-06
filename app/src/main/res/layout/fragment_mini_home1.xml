@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragmentScreen.miniFrag.fragment_mini_home1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<!--    <LinearLayout android:gravity="start"-->
+<!--        android:id="@+id/linearRowcrop"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="@dimen/_10pxh"-->
+<!--        android:layout_marginStart="@dimen/_3pxh"-->
+<!--        android:layout_marginTop="@dimen/_27pxv"-->
+<!--        android:layout_width="match_parent" android:orientation="horizontal">-->
+<!--        <LinearLayout android:gravity="center_horizontal"-->
+<!--            android:id="@+id/linearColumncrop"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="@dimen/_2pxv"-->
+<!--            android:layout_weight="0.22"-->
+<!--            android:layout_width="0dp" android:orientation="vertical">-->
+<!--            <ImageButton-->
+<!--                android:background="@drawable/rectangle_bg_gray_50_radius_30_5"-->
+<!--                android:id="@+id/btnCrop"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:layout_height="@dimen/_61pxh"-->
+<!--                android:layout_width="@dimen/_61pxh"-->
+<!--                android:paddingHorizontal="@dimen/_15pxh"-->
+<!--                android:paddingVertical="@dimen/_15pxv"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:src="@drawable/img_crop"-->
+<!--                tools:ignore="ContentDescription"/>-->
+<!--            <TextView android:ellipsize="end"-->
+<!--                android:gravity="start"-->
+<!--                android:id="@+id/txtElectronics"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="@dimen/_3pxv"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:singleLine="true"-->
+<!--                android:text="@string/lbl_electronics"-->
+<!--                style="@style/txtMerriweatherSansromanlight14_1" tools:text="@string/lbl_electronics"/>-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout android:gravity="center_horizontal"-->
+<!--            android:id="@+id/linearColumndownload"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="@dimen/_2pxv"-->
+<!--            android:layout_marginStart="@dimen/_18pxh"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:orientation="vertical">-->
+<!--            <ImageButton-->
+<!--                android:background="@drawable/rectangle_bg_gray_50_radius_30_5"-->
+<!--                android:id="@+id/btnDownload"-->
+<!--                android:layout_gravity="start"-->
+<!--                android:layout_height="@dimen/_61pxh"-->
+<!--                android:layout_width="@dimen/_61pxh"-->
+<!--                android:paddingHorizontal="@dimen/_18pxh"-->
+<!--                android:paddingVertical="@dimen/_18pxv"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:src="@drawable/img_download" tools:ignore="ContentDescription"/>-->
+<!--            <TextView android:ellipsize="end"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:id="@+id/txtHealth"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginEnd="@dimen/_8pxh"-->
+<!--                android:layout_marginStart="@dimen/_8pxh"-->
+<!--                android:layout_marginTop="@dimen/_3pxv"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:singleLine="true"-->
+<!--                android:text="@string/lbl_health"-->
+<!--                style="@style/txtMerriweatherSansromanlight14_1" tools:text="@string/lbl_health"/>-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout android:gravity="center_horizontal"-->
+<!--            android:id="@+id/linearColumngroupseven"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="@dimen/_2pxv"-->
+<!--            android:layout_marginStart="@dimen/_15pxh"-->
+<!--            android:layout_width="wrap_content" android:orientation="vertical">-->
+<!--            <ImageButton-->
+<!--                android:background="@drawable/rectangle_bg_gray_50_radius_30_5"-->
+<!--                android:id="@+id/btnGroupSeven"-->
+<!--                android:layout_gravity="start"-->
+<!--                android:layout_height="@dimen/_61pxh"-->
+<!--                android:layout_width="@dimen/_61pxh"-->
+<!--                android:paddingHorizontal="@dimen/_15pxh"-->
+<!--                android:paddingVertical="@dimen/_15pxv"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:src="@drawable/img_group7" tools:ignore="ContentDescription"/>-->
+<!--            <TextView android:ellipsize="end"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:id="@+id/txtHotels"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginEnd="@dimen/_9pxh"-->
+<!--                android:layout_marginStart="@dimen/_9pxh"-->
+<!--                android:layout_marginTop="@dimen/_3pxv"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:singleLine="true"-->
+<!--                android:text="@string/lbl_hotels"-->
+<!--                style="@style/txtMerriweatherSansromanlight14_1" tools:text="@string/lbl_hotels"/>-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout android:gravity="center_horizontal"-->
+<!--            android:id="@+id/linearColumnlaptop"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="@dimen/_2pxv"-->
+<!--            android:layout_marginStart="@dimen/_14pxh"-->
+<!--            android:layout_width="wrap_content" android:orientation="vertical">-->
+<!--            <ImageButton-->
+<!--                android:background="@drawable/rectangle_bg_gray_50_radius_30_5"-->
+<!--                android:id="@+id/btnLaptop"-->
+<!--                android:layout_gravity="start"-->
+<!--                android:layout_height="@dimen/_61pxh"-->
+<!--                android:layout_marginEnd="@dimen/_10pxh"-->
+<!--                android:layout_width="@dimen/_61pxh"-->
+<!--                android:paddingHorizontal="@dimen/_18pxh"-->
+<!--                android:paddingVertical="@dimen/_18pxv"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:src="@drawable/img_laptop" tools:ignore="ContentDescription"/>-->
+<!--            <TextView android:ellipsize="end"-->
+<!--                android:gravity="start"-->
+<!--                android:id="@+id/txtFitness"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginEnd="@dimen/_17pxh"-->
+<!--                android:layout_marginStart="@dimen/_7pxh"-->
+<!--                android:layout_marginTop="@dimen/_3pxv"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:singleLine="true"-->
+<!--                android:text="@string/lbl_fitness"-->
+<!--                style="@style/txtMerriweatherSansromanlight14_1" tools:text="@string/lbl_fitness"/>-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout android:gravity="center_horizontal"-->
+<!--            android:id="@+id/linearColumnuser"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="@dimen/_14pxh"-->
+<!--            android:layout_width="wrap_content" android:orientation="vertical">-->
+<!--            <ImageButton-->
+<!--                android:background="@drawable/rectangle_bg_gray_50_radius_30_5"-->
+<!--                android:id="@+id/btnUser"-->
+<!--                android:layout_gravity="start"-->
+<!--                android:layout_height="@dimen/_61pxh"-->
+<!--                android:layout_width="@dimen/_61pxh"-->
+<!--                android:paddingHorizontal="@dimen/_17pxh"-->
+<!--                android:paddingVertical="@dimen/_17pxv"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:src="@drawable/img_user" tools:ignore="ContentDescription"/>-->
+<!--            <TextView android:ellipsize="end"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:id="@+id/txtBeauty"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginEnd="@dimen/_7pxh"-->
+<!--                android:layout_marginStart="@dimen/_7pxh"-->
+<!--                android:layout_marginTop="@dimen/_5pxv"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:singleLine="true"-->
+<!--                android:text="@string/lbl_beauty"-->
+<!--                style="@style/txtMerriweatherSansromanlight14_1" tools:text="@string/lbl_beauty"/>-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout android:gravity="start"-->
+<!--        android:id="@+id/linearRowellipsethree"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="@dimen/_10pxh"-->
+<!--        android:layout_marginStart="@dimen/_8pxh"-->
+<!--        android:layout_marginTop="@dimen/_6pxv"-->
+<!--        android:layout_width="match_parent" android:orientation="horizontal">-->
+<!--        <LinearLayout android:gravity="center_horizontal"-->
+<!--            android:id="@+id/linearColumncart"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="@dimen/_1pxv"-->
+<!--            android:layout_weight="0.42"-->
+<!--            android:layout_width="0dp" android:orientation="vertical">-->
+<!--            <LinearLayout android:id="@+id/linearRowcart"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_width="match_parent" android:orientation="horizontal">-->
+<!--                <ImageButton-->
+<!--                    android:background="@drawable/rectangle_bg_gray_50_radius_30_5"-->
+<!--                    android:id="@+id/btnCart"-->
+<!--                    android:layout_height="@dimen/_61pxh"-->
+<!--                    android:layout_width="@dimen/_61pxh"-->
+<!--                    android:paddingHorizontal="@dimen/_17pxh"-->
+<!--                    android:paddingVertical="@dimen/_17pxv"-->
+<!--                    android:scaleType="fitCenter"-->
+<!--                    android:src="@drawable/img_cart" tools:ignore="ContentDescription"/>-->
+<!--                <FrameLayout-->
+<!--                    android:id="@+id/frameStackellipsetwo"-->
+<!--                    android:layout_height="@dimen/_54pxv"-->
+<!--                    android:layout_marginBottom="@dimen/_2pxv"-->
+<!--                    android:layout_marginStart="@dimen/_25pxh"-->
+<!--                    android:layout_marginTop="@dimen/_3pxv" android:layout_width="@dimen/_61pxh">-->
+<!--                    <View-->
+<!--                        android:background="@drawable/rectangle_bg_gray_100_radius_30_5"-->
+<!--                        android:id="@+id/viewEllipseTwo"-->
+<!--                        android:layout_gravity="start"-->
+<!--                        android:layout_height="@dimen/_54pxv" android:layout_width="@dimen/_61pxh"/>-->
+<!--                    <ImageView android:id="@+id/imageAirplane"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_height="@dimen/_22pxh"-->
+<!--                        android:layout_marginBottom="@dimen/_15pxv"-->
+<!--                        android:layout_marginEnd="@dimen/_17pxh"-->
+<!--                        android:layout_marginStart="@dimen/_18pxh"-->
+<!--                        android:layout_marginTop="@dimen/_16pxv"-->
+<!--                        android:layout_width="@dimen/_25pxh"-->
+<!--                        android:scaleType="fitXY"-->
+<!--                        android:src="@drawable/img_airplane"-->
+<!--                        tools:ignore="ContentDescription" tools:src="@drawable/img_airplane"/>-->
+<!--                </FrameLayout>-->
+<!--            </LinearLayout>-->
+<!--            <LinearLayout android:id="@+id/linearRowgrocery"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginEnd="@dimen/_6pxh"-->
+<!--                android:layout_marginStart="@dimen/_7pxh"-->
+<!--                android:layout_marginTop="@dimen/_2pxv"-->
+<!--                android:layout_width="match_parent" android:orientation="horizontal">-->
+<!--                <TextView android:ellipsize="end"-->
+<!--                    android:id="@+id/txtGrocery"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="@dimen/_1pxv"-->
+<!--                    android:layout_weight="0.54"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:singleLine="true"-->
+<!--                    android:text="@string/lbl_grocery"-->
+<!--                    style="@style/txtMerriweatherSansromanlight14_1" tools:text="@string/lbl_grocery"/>-->
+<!--                <TextView android:ellipsize="end"-->
+<!--                    android:id="@+id/txtFlights"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginBottom="@dimen/_1pxv"-->
+<!--                    android:layout_marginStart="@dimen/_36pxh"-->
+<!--                    android:layout_weight="0.46"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:singleLine="true"-->
+<!--                    android:text="@string/lbl_flights"-->
+<!--                    style="@style/txtMerriweatherSansromanlight14_1" tools:text="@string/lbl_flights"/>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout android:gravity="center_horizontal"-->
+<!--            android:id="@+id/linearColumnuserOne"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="@dimen/_13pxh"-->
+<!--            android:layout_marginTop="@dimen/_1pxv"-->
+<!--            android:layout_weight="0.4"-->
+<!--            android:layout_width="0dp" android:orientation="vertical">-->
+<!--            <LinearLayout android:id="@+id/linearRowuserOne"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_width="match_parent" android:orientation="horizontal">-->
+<!--                <ImageButton-->
+<!--                    android:background="@drawable/rectangle_bg_gray_50_radius_30_5"-->
+<!--                    android:id="@+id/btnUserOne"-->
+<!--                    android:layout_height="@dimen/_61pxh"-->
+<!--                    android:layout_marginBottom="@dimen/_1pxv"-->
+<!--                    android:layout_width="@dimen/_61pxh"-->
+<!--                    android:paddingHorizontal="@dimen/_18pxh"-->
+<!--                    android:paddingVertical="@dimen/_18pxv"-->
+<!--                    android:scaleType="fitCenter"-->
+<!--                    android:src="@drawable/img_user_bluegray_900" tools:ignore="ContentDescription"/>-->
+<!--                <ImageButton-->
+<!--                    android:background="@drawable/rectangle_bg_gray_50_radius_30_5"-->
+<!--                    android:id="@+id/btnCar"-->
+<!--                    android:layout_height="@dimen/_61pxh"-->
+<!--                    android:layout_marginStart="@dimen/_19pxh"-->
+<!--                    android:layout_marginTop="@dimen/_1pxv"-->
+<!--                    android:layout_width="@dimen/_61pxh"-->
+<!--                    android:paddingHorizontal="@dimen/_16pxh"-->
+<!--                    android:paddingVertical="@dimen/_16pxv"-->
+<!--                    android:scaleType="fitCenter"-->
+<!--                    android:src="@drawable/img_car" tools:ignore="ContentDescription"/>-->
+<!--            </LinearLayout>-->
+<!--            <LinearLayout android:id="@+id/linearRowluxury"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginEnd="@dimen/_9pxh"-->
+<!--                android:layout_marginStart="@dimen/_12pxh"-->
+<!--                android:layout_marginTop="@dimen/_1pxv"-->
+<!--                android:layout_width="match_parent" android:orientation="horizontal">-->
+<!--                <TextView android:ellipsize="end"-->
+<!--                    android:id="@+id/txtLuxury"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginBottom="@dimen/_1pxv"-->
+<!--                    android:layout_weight="0.51"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:singleLine="true"-->
+<!--                    android:text="@string/lbl_luxury"-->
+<!--                    style="@style/txtMerriweatherSansromanlight14_1" tools:text="@string/lbl_luxury"/>-->
+<!--                <TextView android:ellipsize="end"-->
+<!--                    android:id="@+id/txtDining"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="@dimen/_31pxh"-->
+<!--                    android:layout_marginTop="@dimen/_1pxv"-->
+<!--                    android:layout_weight="0.49"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:singleLine="true"-->
+<!--                    android:text="@string/lbl_dining"-->
+<!--                    style="@style/txtMerriweatherSansromanlight14_1" tools:text="@string/lbl_dining"/>-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout android:gravity="start"-->
+<!--            android:id="@+id/linearColumnellipsethree"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="@dimen/_2pxv"-->
+<!--            android:layout_marginStart="@dimen/_19pxh"-->
+<!--            android:layout_marginTop="@dimen/_4pxv"-->
+<!--            android:layout_weight="0.17"-->
+<!--            android:layout_width="0dp" android:orientation="vertical">-->
+<!--            <FrameLayout-->
+<!--                android:id="@+id/frameStackellipsethree"-->
+<!--                android:layout_height="@dimen/_54pxv" android:layout_width="@dimen/_61pxh">-->
+<!--                <View-->
+<!--                    android:background="@drawable/rectangle_bg_gray_50_radius_30_5"-->
+<!--                    android:id="@+id/viewEllipseThree"-->
+<!--                    android:layout_gravity="start"-->
+<!--                    android:layout_height="@dimen/_54pxv" android:layout_width="@dimen/_61pxh"/>-->
+<!--                <ImageView android:id="@+id/imageIcons8dressfr"-->
+<!--                    android:layout_gravity="bottom|center"-->
+<!--                    android:layout_height="@dimen/_28pxh"-->
+<!--                    android:layout_marginBottom="@dimen/_11pxv"-->
+<!--                    android:layout_marginEnd="@dimen/_15pxh"-->
+<!--                    android:layout_marginStart="@dimen/_15pxh"-->
+<!--                    android:layout_marginTop="@dimen/_11pxv"-->
+<!--                    android:layout_width="@dimen/_31pxh"-->
+<!--                    android:scaleType="fitXY"-->
+<!--                    android:src="@drawable/img_icons8dressfr"-->
+<!--                    tools:ignore="ContentDescription" tools:src="@drawable/img_icons8dressfr"/>-->
+<!--            </FrameLayout>-->
+<!--            <TextView android:ellipsize="end"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:id="@+id/txtFashion"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginEnd="@dimen/_6pxh"-->
+<!--                android:layout_marginStart="@dimen/_4pxh"-->
+<!--                android:layout_marginTop="@dimen/_3pxv"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:singleLine="true"-->
+<!--                android:text="@string/lbl_fashion"-->
+<!--                style="@style/txtMerriweatherSansromanlight14_1" tools:text="@string/lbl_fashion"/>-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                style="@style/txtMerriweatherSansromanbold19"
+                android:text="BEST OFFER FOR YOU"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/homemini_bestoffer_image"
+                android:layout_height="200dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:id="@+id/btnGetBestOffer"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_36pxv"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_marginEnd="@dimen/_22pxh"
+                    android:layout_marginStart="@dimen/_22pxh"
+                    android:layout_width="wrap_content"
+                    android:lineSpacingExtra="@dimen/_7pxh"
+                    android:paddingBottom="@dimen/_8pxv"
+                    android:paddingEnd="@dimen/_21pxh"
+                    android:paddingStart="@dimen/_21pxh"
+                    android:paddingTop="@dimen/_8pxv"
+                    android:singleLine="true"
+                    android:text="Directions"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded" />
+                <TextView android:ellipsize="end"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_2pxv"
+                    android:layout_weight="0.92"
+                    android:layout_width="0dp"
+                    android:lineSpacingExtra="@dimen/_8pxh"
+                    android:singleLine="true"
+                    android:text="@string/lbl_t_c_applied"
+                    style="@style/txtPoppinsregular15"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/gray_400"
+            android:id="@+id/lineLineOne"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_12pxv" android:layout_width="@dimen/_379pxh"/>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout android:gravity="end"
+            android:id="@+id/linearRowpriceOne"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <TextView android:ellipsize="end"
+                android:gravity="top|start"
+                android:id="@+id/txtPrice"
+                android:layout_alignParentLeft="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="JUST LAUNCHED"
+                style="@style/txtMerriweatherSansromanbold19"
+                tools:text="JUST LAUNCHED"/>
+            <ImageView android:id="@+id/imageArrowright"
+                android:layout_height="@dimen/_11pxh"
+                android:layout_width="@dimen/_9pxh"
+                android:scaleType="fitXY"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/img_arrowright"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_arrowright"/>
+        </RelativeLayout>
+        <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="5dp"
+            app:showIndicator="false"
+            app:showNavigationButtons="false"
+            app:autoPlay="true"
+            app:autoPlayDelay="3000"
+            android:id="@+id/carousel_bottom_homefrag"
+            app:showCaption="false"/>
+    </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

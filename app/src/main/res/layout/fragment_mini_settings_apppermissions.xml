@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentScreen.miniFrag.fragment_mini_settings_apppermissions">
+<!--    <ImageView-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:id="@+id/apppermissions_backbtn"-->
+<!--        android:src="@drawable/ic_backarrow"/>-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+    <LinearLayout
+        android:id="@+id/linearColumnapppermissions"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtAppPermissions"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:text="@string/lbl_app_permissions"
+            style="@style/txtMerriweatherSansromanregular37_1"
+            tools:text="@string/lbl_app_permissions"/>
+        <LinearLayout android:id="@+id/linearRowcamera"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_49pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtCamera"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_3pxv"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_weight="0.54"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_camera"
+                style="@style/txtRubikregular18" tools:text="@string/lbl_camera"/>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switchMaterialGroupTwenty"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_208pxh"
+                android:layout_weight="0.46" android:layout_width="0dp"/>
+        </LinearLayout>
+        <View android:background="@color/gray_400"
+            android:id="@+id/lineLineOne"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_379pxh"/>
+        <LinearLayout android:id="@+id/linearRowlocationaccess"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_23pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtLocationAccess"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_3pxv"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_weight="0.71"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_location_access"
+                style="@style/txtRubikregular18" tools:text="@string/lbl_location_access"/>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switchMaterialGroupTwentyOne"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_136pxh"
+                android:layout_weight="0.29" android:layout_width="0dp"/>
+        </LinearLayout>
+        <View android:background="@color/gray_400"
+            android:id="@+id/lineLineThree"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_15pxv" android:layout_width="@dimen/_379pxh"/>
+        <LinearLayout android:id="@+id/linearRowsms"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_20pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtSMS"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_3pxv"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_weight="0.4"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_sms"
+                style="@style/txtRubikregular18" tools:text="@string/lbl_sms"/>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switchMaterialGroupTwentyTwo"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_236pxh"
+                android:layout_weight="0.6" android:layout_width="0dp"/>
+        </LinearLayout>
+        <View android:background="@color/gray_400"
+            android:id="@+id/lineLineFour"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_15pxv" android:layout_width="@dimen/_379pxh"/>
+        <LinearLayout android:id="@+id/linearRowmicrophone"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_20pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtMicrophone"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_2pxv"
+                android:layout_marginTop="@dimen/_4pxv"
+                android:layout_weight="0.64"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_microphone"
+                style="@style/txtRubikregular18" tools:text="@string/lbl_microphone"/>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switchMaterialGroupTwentyOne1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_174pxh"
+                android:layout_weight="0.36" android:layout_width="0dp"/>
+        </LinearLayout>
+        <View android:background="@color/gray_400"
+            android:id="@+id/lineLineFive"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_13pxv" android:layout_width="@dimen/_379pxh"/>
+        <LinearLayout android:id="@+id/linearRowphone"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_19pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtPhone"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_3pxv"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_weight="0.49"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_phone"
+                style="@style/txtRubikregular18" tools:text="@string/lbl_phone"/>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switchMaterialGroupTwentyThree"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_219pxh"
+                android:layout_weight="0.51" android:layout_width="0dp"/>
+        </LinearLayout>
+        <View android:background="@color/gray_400"
+            android:id="@+id/lineLineTwo"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_15pxv" android:layout_width="@dimen/_379pxh"/>
+        <LinearLayout android:id="@+id/linearRowcontacts"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_20pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtContacts"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_3pxv"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_weight="0.58"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_contacts"
+                style="@style/txtRubikregular18" tools:text="@string/lbl_contacts"/>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switchMaterialGroupTwentyOneOne"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_196pxh"
+                android:layout_weight="0.42" android:layout_width="0dp"/>
+        </LinearLayout>
+        <View android:background="@color/gray_400"
+            android:id="@+id/lineLineSix"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_12pxv" android:layout_width="@dimen/_379pxh"/>
+        <LinearLayout android:id="@+id/linearRowcalender"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_232pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_23pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtCalender"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_3pxv"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_weight="0.57"
+                android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_calender"
+                style="@style/txtRubikregular18" tools:text="@string/lbl_calender"/>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switchMaterialGroupTwentyOneTwo"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_198pxh"
+                android:layout_weight="0.43" android:layout_width="0dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">GeoPay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="lbl_save_money">Save Money</string>
+    <string name="lbl_geopay">GEOPAY</string>
+    <string name="lbl_search">Search</string>
+    <string name="lbl_next">Next</string>
+    <string name="lbl_1">1</string>
+    <string name="lbl_electronics">Electronics</string>
+    <string name="msg_all_your_paymen">All your payments
+ is secured</string>
+    <string name="lbl_hotels">Hotels</string>
+    <string name="lbl_home">Home</string>
+    <string name="lbl_health">Health</string>
+    <string name="lbl_fitness">Fitness</string>
+    <string name="msg_start_saving_to">Start Saving Today</string>
+    <string name="lbl_dining">Dining</string>
+    <string name="msg_top_recommendat">TOP RECOMMENDATIONS</string>
+    <string name="lbl_fashion">Fashion</string>
+    <string name="lbl_see_all">SEE ALL</string>
+    <string name="lbl_luxury">Luxury</string>
+    <string name="lbl_settings">Settings</string>
+    <string name="msg_pay_all_your_pa">Pay all your payments just
+by your phone</string>
+    <string name="lbl_beauty">Beauty</string>
+    <string name="msg_everytime_you_g">everytime you
+go out with just 1 click</string>
+    <string name="lbl_skip">Skip</string>
+    <string name="lbl_purchases">Purchases</string>
+    <string name="lbl_grocery">Grocery</string>
+    <string name="lbl_all_offers">All Offers</string>
+    <string name="lbl_my_offers">My Offers</string>
+    <string name="lbl_flights">Flights</string>
+    <string name="msg_open_certificat">Open certificatesand
+by your phone</string>
+
+    <string name="lbl_edit_profile2">Edit Profile</string>
+    <string name="lbl_t_c_applied">T&amp;C APPLIED</string>
+    <string name="lbl_save_changes">Save Changes</string>
+    <string name="msg_whatsapp_notifi">Whatsapp Notifications</string>
+    <string name="lbl_phone">Phone</string>
+    <string name="lbl_recieve_sms">Recieve SMS</string>
+    <string name="lbl_microphone">Microphone</string>
+    <string name="msg_push_notificati">Push notifications</string>
+    <string name="msg_communication_c">Communication Channels</string>
+    <string name="lbl_camera">Camera</string>
+    <string name="msg_15_off_on_purc2">15% off on purchase of  electronics</string>
+    <string name="lbl_phone_number">Phone Number</string>
+    <string name="lbl_about_us">About us</string>
+    <string name="lbl_calender">Calender</string>
+    <string name="lbl_app_permissions">App Permissions</string>
+    <string name="lbl_dark_mode">Dark mode</string>
+    <string name="msg_change_profile">Change Profile Picture</string>
+    <string name="lbl_malaf_west">Malaf West</string>
+    <string name="lbl_more">More</string>
+    <string name="lbl_india">India</string>
+    <string name="lbl_location_access">Location Access</string>
+    <string name="msg_15_off_on_purc">15% off on purchase of Tata 1MG</string>
+    <string name="lbl_sms">SMS</string>
+    <string name="msg_account_setting">Account Settings</string>
+    <string name="lbl_offers_for_you">Offers For You</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_location">Location</string>
+    <string name="lbl_contacts">Contacts</string>
+    <string name="lbl_get_directions">Get Directions</string>
+    <string name="lbl_get_offer">Get Offer</string>
+    <string name="lbl_privacy_policy">Privacy policy</string>
+    <string name="lbl_address">Address</string>
+    <string name="lbl_9820345922">+9820345922</string>
+    <string name="lbl_yuvraj_singh">Yuvraj Singh</string>
+    <string name="msg_email_notificat">Email Notifications</string>
+    <string name="lbl_edit_profile">Edit profile</string>
+    <string name="lbl_channels">Channels</string>
+    <string name="msg_terms_and_condi">Terms and conditions</string>
+
+
+    <string name="msg_21_off_on_rs">21% off on Rs. 999</string>
+    <string name="msg_it_s_time_to_p">a free beauty kit on orders over Rs. 3000.</string>
+    <string name="lbl_filter">Filter</string>
+    <string name="msg_let_s_make_you">Get a free cleaning kit on orders over Rs. 5000.</string>
+    <string name="lbl_xiaomi_mi_pad_5">Xiaomi Mi Pad 5
+</string>
+    <string name="lbl_2">2</string>
+    <string name="lbl_5">5</string>
+    <string name="lbl_transactions">Transactions</string>
+    <string name="lbl_sofitel_hotel">Sofitel Hotel</string>
+    <string name="lbl_offers">Offers</string>
+    <string name="msg_15_off_on_orde">15% off on orders above
+Rs. 259</string>
+    <string name="msg_samsung_tab_s7">Samsung Tab S7 5g
+20% off</string>
+    <string name="msg_search_stores">Search stores, hotels, malls...</string>
+    <string name="lbl_off">% off</string>
+    <string name="msg_xiaomi_mi_pad_5">Xiaomi Mi Pad 5
+32% off</string>
+    <string name="lbl_3_hr_ago">3 hr  ago.</string>
+    <string name="lbl_4_hr_ago">4 hr  ago.</string>
+    <string name="lbl_6_hr_ago">6 hr  ago.</string>
+    <string name="msg_calling_all_fi">"Calling all fitness enthusiasts! Get a free gym bag on orders over Rs. 2000."</string>
+    <string name="msg_get_ready_to_s">"Get ready to shop till you drop! Enjoy a flat 20% off on all fashion items."</string>
+    <string name="lbl_1m_ago">1m ago.</string>
+    <string name="lbl_51m_ago">51m ago.</string>
+    <string name="msg_recently_search">Recently searched</string>
+    <string name="lbl_notifications">Notifications</string>
+    <string name="lbl_32">32</string>
+    <string name="msg_stop_drooling">"Stop drooling and start ordering! Use code FOODCOMA and get 30% off on your next order!"</string>
+    <string name="lbl_infiniti_mall">Infiniti Mall</string>
+    <string name="msg_30_off_on_rs">30% off on Rs. 499</string>
+    <string name="msg_ipad_air_45_of">Ipad Air
+45% off</string>
+    <string name="msg_munshi_nagar_a">Munshi Nagar, Andheri West</string>
+    <string name="msg_big_saver_offer">Big Saver Offers</string>
+    <string name="lbl_availed_offers">AVAILED OFFERS</string>
+    <string name="title_activity_login_page">LoginPage</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

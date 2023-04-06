@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentScreen.miniFrag.fragment_mini_settings_communicationch">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:id="@+id/linearColumnchannels"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtChannels"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_15pxh"
+                android:layout_marginStart="@dimen/_15pxh"
+                android:layout_width="wrap_content"
+                android:letterSpacing="0.06"
+                android:singleLine="true"
+                android:text="@string/lbl_channels"
+                style="@style/txtMerriweatherSansromanregular37_2"
+                tools:text="@string/lbl_channels"/>
+            <LinearLayout android:gravity="end"
+                android:id="@+id/linearRowwhatsappnotifi"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_height="@dimen/_46pxh"
+                    android:layout_width="@dimen/_53pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_image37"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_image36"/>
+
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtWhatsappNotifi"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:layout_gravity="center"
+                    android:text="@string/msg_whatsapp_notifi"
+                    style="@style/txtRubikregular18" tools:text="@string/msg_whatsapp_notifi"/>
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/switchMaterialGroupTwenty"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+
+                    android:layout_weight="0.22" android:layout_width="0dp"/>
+            </LinearLayout>
+            <View android:background="@color/gray_400"
+                android:id="@+id/lineLineThree"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_1pxv"
+                android:layout_marginEnd="@dimen/_1pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_18pxv" android:layout_width="@dimen/_379pxh"/>
+            <LinearLayout android:id="@+id/linearRowgrouptwentyOne"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:id="@+id/linearRowemailnotificat"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+                    <ImageView android:id="@+id/imageImageThirtySix"
+                        android:layout_height="@dimen/_46pxh"
+                        android:layout_width="@dimen/_53pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_image36"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_image36"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtEmailNotificat"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_12pxv"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_11pxv"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@string/msg_email_notificat"
+                        style="@style/txtRubikregular18" tools:text="@string/msg_email_notificat"/>
+                    <com.google.android.material.switchmaterial.SwitchMaterial
+                        android:id="@+id/switchMaterialGroupTwentyOne"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_117pxh"
+                        android:layout_weight="0.2" android:layout_width="0dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <View android:background="@color/gray_400"
+                android:id="@+id/lineLineFour"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_1pxv"
+                android:layout_marginEnd="@dimen/_1pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_15pxv" android:layout_width="@dimen/_379pxh"/>
+            <LinearLayout android:id="@+id/frameStackrecievesms"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_38pxv"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent">
+                <ImageView android:id="@+id/imageImageThirtySeven"
+                    android:layout_height="@dimen/_46pxh"
+                    android:layout_width="@dimen/_53pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_image37"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_image37"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtRecieveSMS"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@string/lbl_recieve_sms"
+                    style="@style/txtRubikregular18" tools:text="@string/lbl_recieve_sms"/>
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/switchMaterialGroupFiftyOne"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_117pxh"
+                    android:layout_weight="0.2" android:layout_width="0dp"/>
+
+
+            </LinearLayout>
+            <View android:background="@color/gray_400"
+                android:id="@+id/lineLineFive"
+                android:layout_gravity="bottom|center"
+                android:layout_height="@dimen/_1pxv"
+                android:layout_marginBottom="@dimen/_9pxv"
+                android:layout_marginEnd="@dimen/_1pxh"
+                android:layout_marginStart="@dimen/_8pxh"
+                android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_379pxh"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
