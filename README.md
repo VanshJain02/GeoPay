@@ -1,0 +1,2 @@
+GeoPay is a real-time location-based product recommendation system. We designed and implemented a cloud-native mobile application using AWS Lambda, Kotlin, EC2, and DynamoDB, with backend scripts written in Python. The system leverages a Machine Learning model for product recommendations, analyzing user preferences and geospatial data to deliver personalized offers. 
+The app seamlessly integrates REST APIs, customer segmentation analytics, and a secure payment gateway, enhancing user engagement and data-driven marketing strategies.
